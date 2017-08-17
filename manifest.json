@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
-    "name": "Demo chrome extension",
-    "description": "A demonstration of a bespoke chrome extension being used to populate form fields",
+    "name": "礁溪分隊 EMS 小助手",
+    "description": "協助役男填寫緊急醫療管理系統",
     "homepage_url": "https://github.com/abel1105/EMS-Jiaoxi",
     "version": "1.0",
     "browser_action": {
