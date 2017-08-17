@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      html, body {
+        width: 280px;
+      }
+    </style>
+    <link rel="stylesheet" href="materialize.min.css">
+  </head>
+  <body>
+    <div class="card-panel" style="margin: 0;">
+      <h5 class="blue-text text-darken-2">礁溪分隊 EMS 小助手</h4>
+      
+      <label class="teal-text text-lighten-1"><b>智慧協助</b></label>
+      <div class="switch">
+        <p>
+          <label>
+            關閉
+            <input type="checkbox" name="auto-help">
+            <span class="lever"></span>
+            開啟
+          </label>
+        </p>
+      </div>
+      <hr/>
+      <!-- <input type="radio" name="auto-help" value="open"/> 開啟
+      <input type="radio" name="auto-help" value="close"/> 關閉<br> -->
+      <p>
+        <button class="waves-effect waves-light btn" id='fillForm'>自動填入預設值</button>
+      </p>
+    </div>  
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src='action.js'></script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Demo chrome extension",
+    "description": "A demonstration of a bespoke chrome extension being used to populate form fields",
+    "homepage_url": "https://github.com/abel1105/EMS-Jiaoxi",
+    "version": "1.0",
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_title": "Click here!",
+        "default_popup": "index.html"
+    },
+    "content_scripts": [
+        {
+          "matches": ["http://ems.mohw.gov.tw/*", "https://ems.mohw.gov.tw/*"],
+          "js": ["jquery.min.js", "auto_help.js"]
+        }
+    ],
+    "permissions": [
+        "tabs",
+        "storage",
+        "http://*/*",
+        "https://*/*"
+    ]
+}
