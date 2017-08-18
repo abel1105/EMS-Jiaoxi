@@ -106,7 +106,7 @@ function ems_aid_case_update_auto_help(){
 
 			// CSS
 			// 修改 救護人員 select 樣式
-			$("head").append('<style type="text/css">select[name="Source_Nurse"]{width: 280px;} select[name="Source_Nurse"] option{width: 50px; float: left;}</style>');
+			$("head").append('<style type="text/css">select[name="Source_Nurse"]{width: 300px;} select[name="Source_Nurse"] option{width: 50px; float: left;}</style>');
 
 		});
 
