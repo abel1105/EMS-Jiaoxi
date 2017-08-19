@@ -101,8 +101,7 @@ function ems_aid_case_update_auto_help(){
 					value = $('input[name="hourmin4"]').val();
 					break;
 			}
-			if(value.length !== 4) return; // 尚未完成
-			set_time(value);
+			if(value.length == 4) set_time(value); // 尚未完成
 
 			// CSS
 			// 修改 救護人員 select 樣式
